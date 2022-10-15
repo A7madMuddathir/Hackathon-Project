@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Edico-2" translatesAutoresizingMaskIntoConstraints="NO" id="kLX-Rs-RU7">
+                                <rect key="frame" x="-606" y="-1310.5" width="1626" height="3517"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Edico-4" translatesAutoresizingMaskIntoConstraints="NO" id="E4d-7M-zeB">
+                                <rect key="frame" x="19.5" y="310" width="375" height="276"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="N4j-7A-CrH"/>
+                                    <constraint firstAttribute="height" constant="276" id="mrY-3L-CC0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="E4d-7M-zeB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Vur-Hn-qu1"/>
+                            <constraint firstItem="kLX-Rs-RU7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jEZ-8I-6sv"/>
+                            <constraint firstItem="kLX-Rs-RU7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wNH-FX-d1l"/>
+                            <constraint firstItem="E4d-7M-zeB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wr7-Pa-AZo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Edico-2" width="1626" height="3517"/>
+        <image name="Edico-4" width="959" height="954"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
